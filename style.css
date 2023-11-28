@@ -1,0 +1,35 @@
+/* ... (your existing styles) ... */
+
+.myform .forminput label {
+    display: inline-block; /* Display labels inline */
+    color: #fff;
+    width: 20%; /* Adjust the width according to your needs */
+    text-align: right; /* Align label text to the right */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.myform .forminput input[type="text"],
+.myform .forminput input[type="email"],
+.myform .forminput input[type="tel"],
+.myform .forminput input[type="number"],
+.myform .forminput input[type="password"],
+.myform .forminput select,
+.myform .forminput input[type="date"] {
+    width: 75%; /* Adjust the width according to your needs */
+    border-radius: 20px;
+    outline: none;
+    padding: 3px;
+    transition: 0.25s;
+}
+
+.myform .forminput input[type="text"]:focus,
+.myform .forminput input[type="email"]:focus,
+.myform .forminput input[type="tel"]:focus,
+.myform .forminput input[type="number"]:focus,
+.myform .forminput input[type="password"]:focus,
+.myform .forminput select:focus {
+    width: 55%;
+    border-color: #2ecc71;
+}
+
+/* ... (your existing styles) ... */
